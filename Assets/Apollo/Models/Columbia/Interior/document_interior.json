@@ -1,0 +1,4070 @@
+{
+  "asset": {
+    "type": "application/si-dpo-3d.document+json",
+    "version": "1.0",
+    "generator": "Voyager",
+    "copyright": "(c) Smithsonian Institution. All rights reserved."
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "units": "cm",
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        6
+      ],
+      "meta": 4,
+      "setup": 0
+    }
+  ],
+  "nodes": [
+    {
+      "rotation": [
+        -0.0724303,
+        -0.2818446,
+        -0.0213429,
+        0.9564842
+      ],
+      "name": "Camera",
+      "camera": 0
+    },
+    {
+      "name": "Lights",
+      "children": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "translation": [
+        0,
+        0,
+        2
+      ],
+      "rotation": [
+        0.4829741,
+        -0.1070728,
+        0.1880998,
+        0.8484633
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "name": "Key",
+      "light": 0
+    },
+    {
+      "rotation": [
+        0.3546969,
+        0.163893,
+        -0.3861077,
+        0.8356136
+      ],
+      "name": "Fill #1",
+      "light": 1
+    },
+    {
+      "translation": [
+        0,
+        0,
+        1
+      ],
+      "rotation": [
+        0.9374013,
+        -0.3018693,
+        0.0532277,
+        0.1652891
+      ],
+      "name": "Fill #2",
+      "light": 2
+    },
+    {
+      "translation": [
+        1,
+        0,
+        -1
+      ],
+      "rotation": [
+        0.373256,
+        0.6426073,
+        -0.5786063,
+        0.3360813
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "name": "Rim",
+      "light": 3
+    },
+    {
+      "translation": [
+        0,
+        -183.87,
+        -32
+      ],
+      "name": "Interior",
+      "children": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "translation": [
+        83.5,
+        2.4,
+        -76.6
+      ],
+      "name": "Hull",
+      "model": 0,
+      "meta": 0
+    },
+    {
+      "translation": [
+        83.5,
+        2.4,
+        -76.6
+      ],
+      "name": "Seats",
+      "model": 1,
+      "meta": 1
+    },
+    {
+      "translation": [
+        83.5,
+        2.4,
+        -76.6
+      ],
+      "name": "Panel",
+      "model": 2,
+      "meta": 2
+    },
+    {
+      "translation": [
+        83.5,
+        2.4,
+        -76.6
+      ],
+      "name": "Graffiti",
+      "model": 3,
+      "meta": 3
+    }
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "yfov": 52,
+        "znear": 0.1,
+        "zfar": 100000
+      }
+    }
+  ],
+  "lights": [
+    {
+      "color": [
+        1,
+        0.95,
+        0.9
+      ],
+      "intensity": 1,
+      "type": "directional",
+      "shadowEnabled": true
+    },
+    {
+      "color": [
+        0.9,
+        0.95,
+        1
+      ],
+      "intensity": 0.7,
+      "type": "directional",
+      "shadowEnabled": true
+    },
+    {
+      "color": [
+        0.8,
+        0.85,
+        1
+      ],
+      "intensity": 0.5,
+      "type": "directional"
+    },
+    {
+      "color": [
+        0.85,
+        0.9078313,
+        1
+      ],
+      "intensity": 0.6,
+      "type": "directional"
+    }
+  ],
+  "models": [
+    {
+      "units": "cm",
+      "boundingBox": {
+        "min": [
+          -139.6569977,
+          -2.38359,
+          -159.0016632
+        ],
+        "max": [
+          139.7391205,
+          309.3122864,
+          158.3217621
+        ]
+      },
+      "derivatives": [
+        {
+          "usage": "Web3D",
+          "quality": "Thumb",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-hull-uvs-20k-512-thumb.glb",
+              "type": "Model",
+              "byteSize": 128448,
+              "numFaces": 20000,
+              "imageSize": 512
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "Low",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-hull-uvs-150k-1024-low.glb",
+              "type": "Model",
+              "byteSize": 1235148,
+              "numFaces": 150000,
+              "imageSize": 1024
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "Medium",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-hull-uvs-150k-2048-medium.glb",
+              "type": "Model",
+              "byteSize": 2216392,
+              "numFaces": 150000,
+              "imageSize": 2048
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "High",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-hull-uvs-150k-4096-high.glb",
+              "type": "Model",
+              "byteSize": 5421008,
+              "numFaces": 150000,
+              "imageSize": 4096
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "AR",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-hull-uvs-25k-2048_draco.glb",
+              "type": "Model",
+              "byteSize": 717348,
+              "numFaces": 100000,
+              "imageSize": 2048
+            }
+          ]
+        },
+        {
+          "usage": "App3D",
+          "quality": "AR",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior_combined-100k-2048_std_draco.glb",
+              "type": "Model",
+              "byteSize": 1200420,
+              "numFaces": 100000,
+              "imageSize": 2048
+            }
+          ]
+        },
+        {
+          "usage": "iOSApp3D",
+          "quality": "AR",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior_combined-100k-2048_std_draco.usdz",
+              "type": "Model",
+              "byteSize": 2869666,
+              "numFaces": 100000,
+              "imageSize": 2048
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "fuq7NLYJDhfc",
+          "title": "Entrances",
+          "lead": "There are two entrances to the crew cabin, a main entrance on the side and one at the apex (narrow) end of the command module.",
+          "tags": [
+            "Module"
+          ],
+          "articleId": "8r0rdrmpc8oo",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            24.9117655,
+            167.9173506,
+            142.9352648
+          ],
+          "direction": [
+            -0.0982434,
+            0.8213148,
+            -0.5619522
+          ],
+          "scale": 11.2593855,
+          "color": [
+            0.4,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "cDd6NCkFWIIN",
+          "title": "Side Hatch",
+          "lead": "In flight, the side opening through the pressure vessel and command module heat shield is sealed by a single \"unified\" hatch (not currently attached).",
+          "tags": [
+            "Module"
+          ],
+          "articleId": "eqJzTMr52o6V",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -40.3742042,
+            178.7352147,
+            123.7775529
+          ],
+          "direction": [
+            0.1842429,
+            0.8428133,
+            -0.505688
+          ],
+          "scale": 11.2593855,
+          "color": [
+            0.4,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "TX0kI5YashRy",
+          "title": "Docking Tunnel",
+          "lead": "The passageway to and from the lunar module is at the apex (narrow) end of the command module. ",
+          "tags": [
+            "Module"
+          ],
+          "articleId": "uaOTATWimdZU",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            2.4931025,
+            281.9001991,
+            -38.7496414
+          ],
+          "direction": [
+            -0.0511403,
+            0.0826112,
+            0.9952688
+          ],
+          "scale": 11.2593855,
+          "color": [
+            0.4,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "OFOXD3VmhpKM",
+          "title": "Forward Hatch",
+          "lead": "The forward, or docking hatch is a combined pressure and insulating hatch mounted at the top of the docking tunnel.",
+          "tags": [
+            "Module"
+          ],
+          "articleId": "Iuc9RXvIo1lA",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            20.563371,
+            295.9759739,
+            13.7166977
+          ],
+          "direction": [
+            -0.0274354,
+            -0.9994315,
+            -0.0195967
+          ],
+          "scale": 11.2593855,
+          "color": [
+            0.4,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "0wakgpf39FWD",
+          "title": "Guidance and Navigation Station (G&N) ",
+          "lead": "G&N instruments and controls are located in lower equipment bay.",
+          "tags": [
+            "Lower Bay"
+          ],
+          "articleId": "mI8hJGJcfcxM",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            19.0163621,
+            178.3763891,
+            -89.7965691
+          ],
+          "direction": [
+            -0.0039278,
+            0.7187865,
+            0.6952198
+          ],
+          "scale": 6.0593855,
+          "color": [
+            0,
+            0.85,
+            1
+          ]
+        },
+        {
+          "id": "HMy3zNCEZGWZ",
+          "title": "Environment System Controls",
+          "lead": "Manual controls for environmental systems are located in the left-hand equipment bay.",
+          "tags": [
+            "Lower Bay"
+          ],
+          "articleId": "YuUIyVUhJHTY",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -106.2187363,
+            148.0266102,
+            -45.7518974
+          ],
+          "direction": [
+            0.9999846,
+            0.0039215,
+            0.0039215
+          ],
+          "scale": 11.2593855,
+          "color": [
+            0,
+            0.85,
+            1
+          ]
+        },
+        {
+          "id": "0QbsrZppLpgZ",
+          "title": "Waste Management Systems Controls",
+          "lead": "Columbia's waste management system along with several non-time-critical circuit breakers for other systems.",
+          "tags": [
+            "Lower Bay"
+          ],
+          "articleId": "Xxer9jL2eh0p",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            106.6542985,
+            132.2435901,
+            -48.9184329
+          ],
+          "direction": [
+            -0.9898912,
+            0.0586892,
+            -0.1291162
+          ],
+          "scale": 5.4593855,
+          "color": [
+            0,
+            0.85,
+            1
+          ]
+        },
+        {
+          "id": "Zkne7DstDg63",
+          "title": "Storage Lockers",
+          "lead": "Storage lockers of various sizes are distributed throughout the cabin, including in the aft section underneath the astronaut couches.",
+          "tags": [
+            "Lower Bay"
+          ],
+          "articleId": "LX8o9OsX4iBc",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -35.6306768,
+            78.6353145,
+            44.9538788
+          ],
+          "direction": [
+            -0.0039191,
+            0.9993701,
+            -0.0352719
+          ],
+          "scale": 11.2593855,
+          "color": [
+            0,
+            0.85,
+            1
+          ]
+        },
+        {
+          "id": "Ak0xkDTPxXOM",
+          "title": "Columbia's Interior",
+          "lead": "Designed to house and protect three crew members and their equipment during the trip to and from lunar orbit.",
+          "tags": [
+            "Module"
+          ],
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            46.7776055,
+            214.4466803,
+            -56.1547206
+          ],
+          "direction": [
+            -0.9977775,
+            -0.0508671,
+            -0.0430414
+          ],
+          "scale": 0.2593855,
+          "color": [
+            0.4,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "units": "cm",
+      "boundingBox": {
+        "min": [
+          -106.5382996,
+          0.066341,
+          -205.6068726
+        ],
+        "max": [
+          107.2748108,
+          253.7309265,
+          142.3215027
+        ]
+      },
+      "derivatives": [
+        {
+          "usage": "Web3D",
+          "quality": "Thumb",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-seats-uvs-20k-512-thumb.glb",
+              "type": "Model",
+              "byteSize": 97404,
+              "numFaces": 20000,
+              "imageSize": 512
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "Low",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-seats-uvs-150k-1024-low.glb",
+              "type": "Model",
+              "byteSize": 1471604,
+              "numFaces": 150000,
+              "imageSize": 1024
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "Medium",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-seats-uvs-150k-2048-medium.glb",
+              "type": "Model",
+              "byteSize": 2450988,
+              "numFaces": 150000,
+              "imageSize": 2048
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "High",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-seats-uvs-150k-4096-high.glb",
+              "type": "Model",
+              "byteSize": 5658420,
+              "numFaces": 150000,
+              "imageSize": 4096
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "AR",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-seats-uvs-25k-2048_draco.glb",
+              "type": "Model",
+              "byteSize": 717348,
+              "numFaces": 100000,
+              "imageSize": 2048
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "poqCw7e8Wy6t",
+          "title": "Crew Couches",
+          "lead": "Couches help position the crew as they work on tasks during the mission.",
+          "tags": [
+            "Module"
+          ],
+          "articleId": "ppLQ4e7tVOIz",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -8.921254,
+            138.9479842,
+            29.4408709
+          ],
+          "direction": [
+            -0.0900674,
+            0.982909,
+            -0.1605548
+          ],
+          "scale": 11.2593855,
+          "color": [
+            0.4,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "cP9V0iVPL4k3",
+          "title": "Rotation and Translation Controls",
+          "lead": "Located on the armrests of two crew couches",
+          "tags": [
+            "Displays and Controls"
+          ],
+          "articleId": "K7VTSPGCcS9k",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -32.0684381,
+            185.3144343,
+            33.4639468
+          ],
+          "direction": [
+            0.9919586,
+            -0.0352871,
+            0.1215443
+          ],
+          "scale": 11.2593855,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "units": "cm",
+      "boundingBox": {
+        "min": [
+          -134.8500061,
+          0.006592,
+          -222.7188416
+        ],
+        "max": [
+          131.9830933,
+          245.933136,
+          102.0775375
+        ]
+      },
+      "derivatives": [
+        {
+          "usage": "Web3D",
+          "quality": "Thumb",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-panel-uvs-20k-512-thumb.glb",
+              "type": "Model",
+              "byteSize": 122808,
+              "numFaces": 20000,
+              "imageSize": 512
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "Low",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-panel-uvs-150k-1024-low.glb",
+              "type": "Model",
+              "byteSize": 2334440,
+              "numFaces": 150000,
+              "imageSize": 1024
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "Medium",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-panel-uvs-150k-2048-medium.glb",
+              "type": "Model",
+              "byteSize": 3646656,
+              "numFaces": 150000,
+              "imageSize": 2048
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "High",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-panel-uvs-150k-4096-high.glb",
+              "type": "Model",
+              "byteSize": 7990144,
+              "numFaces": 150000,
+              "imageSize": 4096
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "AR",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-panel-uvs-25k-2048_draco.glb",
+              "type": "Model",
+              "byteSize": 717348,
+              "numFaces": 100000,
+              "imageSize": 2048
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "licPXPoYSYJh",
+          "title": "Lunar Module Pilot Controls",
+          "lead": "Opposite the right-hand seat, facing systems controls.",
+          "tags": [
+            "Displays and Controls"
+          ],
+          "articleId": "my1EbseNSmeI",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            57.4683734,
+            205.7356673,
+            36.3630023
+          ],
+          "direction": [
+            -0.0039322,
+            -0.9555162,
+            0.2949124
+          ],
+          "scale": 11.2593855,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "QzoVuZNxtLvW",
+          "title": "Displays and Controls",
+          "lead": "Displays and controls used in Apollo include meters and switches that allow the flight crew to monitor and control the operations of the spacecraft.",
+          "tags": [
+            "Displays and Controls"
+          ],
+          "articleId": "yoqxXUEqdCxv",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -1.0069695,
+            218.4664706,
+            77.9892523
+          ],
+          "direction": [
+            -0.0039028,
+            -0.9561927,
+            0.292712
+          ],
+          "scale": 11.2593855,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "DFYQymbPZI7j",
+          "title": "Pilot Controls",
+          "lead": "Opposite the center seat, facing flight and systems controls.",
+          "tags": [
+            "Displays and Controls"
+          ],
+          "articleId": "BvyRIcou0NnM",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -12.4212172,
+            210.2276201,
+            50.9146289
+          ],
+          "direction": [
+            -0.0039028,
+            -0.9561927,
+            0.292712
+          ],
+          "scale": 11.2593855,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "xVRuIapM0clB",
+          "title": "Commander's Controls",
+          "lead": "Opposite the left-hand seat, facing the flight controls.",
+          "tags": [
+            "Displays and Controls"
+          ],
+          "articleId": "QWBpZidwutj8",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -76.388194,
+            206.3274547,
+            37.4744239
+          ],
+          "direction": [
+            -0.0039322,
+            -0.9555162,
+            0.2949124
+          ],
+          "scale": 11.2593855,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "lBExm34SFHQC",
+          "title": "Toggle Switches",
+          "lead": "Toggle switches are the most frequently used type of controls on Columbia.",
+          "tags": [
+            "Displays and Controls"
+          ],
+          "articleId": "k6CciPvN1aKh",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            76.8830812,
+            205.5928948,
+            36.1721383
+          ],
+          "direction": [
+            -0.0039117,
+            -0.9583556,
+            0.2855508
+          ],
+          "scale": 1.6593855,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "GtjPnePBYSfi",
+          "title": "Pushbutton Switches",
+          "lead": "Pushbuttons were most widely used where astronauts needed to initiate a spacecraft function quickly.",
+          "tags": [
+            "Displays and Controls"
+          ],
+          "articleId": "bQGIrnxzNPO6",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -51.0444708,
+            204.8537615,
+            34.7186561
+          ],
+          "direction": [
+            -0.0039215,
+            -0.9842986,
+            0.1764679
+          ],
+          "scale": 2.0593855,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "LLYQBUXqvY98",
+          "title": "Rotary Switches",
+          "lead": "Rotary switches were used on the control panel when four or more set positions were required to control discrete functions.",
+          "tags": [
+            "Displays and Controls"
+          ],
+          "articleId": "8pL1hMrysrTs",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            90.245971,
+            206.8363345,
+            40.4945053
+          ],
+          "direction": [
+            -0.0039117,
+            -0.9583556,
+            0.2855508
+          ],
+          "scale": 1.8593855,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "fsjAKenh8liB",
+          "title": "Continuously-Variable Controls",
+          "lead": "Used for functions requiring precise control and adjustment.  These included control of lighting intensities, audio volume, and antenna positioning.",
+          "tags": [
+            "Displays and Controls"
+          ],
+          "articleId": "a5iNMrZtIqjR",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            90.4924588,
+            204.9256608,
+            64.792259
+          ],
+          "direction": [
+            -0.7022524,
+            -0.5374781,
+            -0.4668606
+          ],
+          "scale": 2.2593855,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "UlvQuFIHE7Ei",
+          "title": "Flight Director/Attitude Indicator",
+          "lead": "The flight director attitude indicator (FDAI), was the primary flight display.",
+          "tags": [
+            "Displays and Controls"
+          ],
+          "articleId": "808CXa8oJNxQ",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -39.9619431,
+            218.129211,
+            75.8676007
+          ],
+          "direction": [
+            0.0039322,
+            -0.9555162,
+            0.2949124
+          ],
+          "scale": 2.1593855,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "mG2VMafUdW5G",
+          "title": "Entry Monitor System",
+          "lead": "A guidance package used to monitor performance during thrusting, rendezvous, and re-entry maneuvers.",
+          "tags": [
+            "Displays and Controls"
+          ],
+          "articleId": "cJjyQD5mlfK9",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -61.6833985,
+            218.7533494,
+            78.0352114
+          ],
+          "direction": [
+            -0.0196572,
+            -0.955339,
+            0.2948577
+          ],
+          "scale": 2.8593855,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "0s0Utq9ZFYpY",
+          "title": "Display and Keyboard Assembly, or DSKY",
+          "lead": "Used to communicate with command module's guidance computer.",
+          "tags": [
+            "Displays and Controls"
+          ],
+          "articleId": "4eYgxCYTaXvO",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -32.6271178,
+            214.14111,
+            62.2100867
+          ],
+          "direction": [
+            -0.0039028,
+            -0.9561927,
+            0.292712
+          ],
+          "scale": 1.8593855,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "units": "cm",
+      "boundingBox": {
+        "min": [
+          -101.1635971,
+          0.006592,
+          -222.7188416
+        ],
+        "max": [
+          109.512001,
+          248.8928223,
+          -0.1376432
+        ]
+      },
+      "derivatives": [
+        {
+          "usage": "Web3D",
+          "quality": "Thumb",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-graffiti-uvs-20k-512-thumb.glb",
+              "type": "Model",
+              "byteSize": 122808,
+              "numFaces": 20000,
+              "imageSize": 512
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "Low",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-graffiti-uvs-150k-512-low.glb",
+              "type": "Model",
+              "byteSize": 112744,
+              "numFaces": 150000,
+              "imageSize": 512
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "Medium",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-graffiti-uvs-150k-1024-medium.glb",
+              "type": "Model",
+              "byteSize": 293216,
+              "numFaces": 150000,
+              "imageSize": 1024
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "High",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-graffiti-uvs-150k-2048-high.glb",
+              "type": "Model",
+              "byteSize": 882592,
+              "numFaces": 150000,
+              "imageSize": 2048
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "AR",
+          "assets": [
+            {
+              "uri": "x3d-cm-interior-graffiti-uvs-25k-2048_draco.glb",
+              "type": "Model",
+              "byteSize": 717348,
+              "numFaces": 100000,
+              "imageSize": 2048
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "ppCpfRyFO0E8",
+          "title": "Navigating from the Command Module",
+          "lead": "Guidance computer programs required precise fixes on stars or other visual features.",
+          "tags": [
+            "Graffiti"
+          ],
+          "articleId": "XviNXwyu3nGd",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            15.13795,
+            208.2971357,
+            -75.3741168
+          ],
+          "direction": [
+            -0.0039225,
+            -0.5373789,
+            0.8433318
+          ],
+          "scale": 2.2593855,
+          "color": [
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "oRl4cBSfEAQn",
+          "title": "A Hand-Drawn Calendar",
+          "lead": "Small calendar drawn on the lower equipment bay wall.",
+          "tags": [
+            "Graffiti"
+          ],
+          "articleId": "PSL71WQdvOq1",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -63.0287619,
+            150.7000854,
+            -82.6248871
+          ],
+          "direction": [
+            0.0117616,
+            -0.0196027,
+            0.9997387
+          ],
+          "scale": 3.0593855,
+          "color": [
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "OjJCdkJCRmDy",
+          "title": "Epitaph to a Journey",
+          "lead": "A note by Michael Collins, written over 50 years ago, beautifully conveys a sentiment we all have to appreciate now more than ever.",
+          "tags": [
+            "Graffiti"
+          ],
+          "articleId": "3QWJpbbaeFHP",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -6.5988958,
+            224.8418998,
+            -64.943423
+          ],
+          "direction": [
+            -0.003939,
+            -0.531764,
+            0.8468834
+          ],
+          "scale": 1.9593855,
+          "color": [
+            1,
+            0,
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "metas": [
+    {
+      "articles": [
+        {
+          "id": "8r0rdrmpc8oo",
+          "uri": "articles/getting-in.html",
+          "title": "Getting in",
+          "lead": "and out"
+        },
+        {
+          "id": "eqJzTMr52o6V",
+          "uri": "articles/the--unified-hatch.html",
+          "title": "The \"Unified Hatch\""
+        },
+        {
+          "id": "uaOTATWimdZU",
+          "uri": "articles/the-docking-tunnel-passageway.html",
+          "title": "The Docking Tunnel Passageway"
+        },
+        {
+          "id": "Iuc9RXvIo1lA",
+          "uri": "articles/the-forward-hatch.html",
+          "title": "The Forward Hatch",
+          "lead": "Pressure Seal and Thermal Barrier"
+        },
+        {
+          "id": "mI8hJGJcfcxM",
+          "uri": "articles/guidance-and-navigation-(g&n).html",
+          "title": "Guidance and Navigation (G&N)",
+          "lead": "System Displays and Controls"
+        },
+        {
+          "id": "YuUIyVUhJHTY",
+          "uri": "articles/environmental-system-controls.html",
+          "title": "Environmental System Controls"
+        },
+        {
+          "id": "Xxer9jL2eh0p",
+          "uri": "articles/waste-management.html",
+          "title": "Waste Management"
+        },
+        {
+          "id": "LX8o9OsX4iBc",
+          "uri": "articles/storage-lockers.html",
+          "title": "Storage Lockers"
+        }
+      ]
+    },
+    {
+      "articles": [
+        {
+          "id": "ppLQ4e7tVOIz",
+          "uri": "articles/three-couches.html",
+          "title": "Three Couches",
+          "lead": "Many Configurations"
+        },
+        {
+          "id": "K7VTSPGCcS9k",
+          "uri": "articles/controlling-movement-from-the-armrests.html",
+          "title": "Controlling Movement from the Armrests"
+        }
+      ]
+    },
+    {
+      "articles": [
+        {
+          "id": "my1EbseNSmeI",
+          "uri": "articles/lunar-module-pilot's-position-.html",
+          "title": "Lunar Module Pilot's Position "
+        },
+        {
+          "id": "yoqxXUEqdCxv",
+          "uri": "articles/operating-the-main-display-console-(mdc).html",
+          "title": "Operating the Main Display Console (MDC)",
+          "lead": "with Three crew or just One"
+        },
+        {
+          "id": "BvyRIcou0NnM",
+          "uri": "articles/command-module-pilot's-position.html",
+          "title": "Command Module Pilot's Position"
+        },
+        {
+          "id": "QWBpZidwutj8",
+          "uri": "articles/mission-commander's-position.html",
+          "title": "Mission Commander's Position",
+          "lead": "Flight Controls"
+        },
+        {
+          "id": "k6CciPvN1aKh",
+          "uri": "articles/toggle-switches.html",
+          "title": "Toggle Switches",
+          "lead": "Compact and Easy to Operate"
+        },
+        {
+          "id": "bQGIrnxzNPO6",
+          "uri": "articles/pushbutton-switches.html",
+          "title": "Pushbutton Switches",
+          "lead": "Three Types of Functions"
+        },
+        {
+          "id": "8pL1hMrysrTs",
+          "uri": "articles/rotary-switches.html",
+          "title": "Rotary Switches"
+        },
+        {
+          "id": "a5iNMrZtIqjR",
+          "uri": "articles/flexible-and-precise.html",
+          "title": "Flexible and Precise"
+        },
+        {
+          "id": "808CXa8oJNxQ",
+          "uri": "articles/integrated-flight-display.html",
+          "title": "Integrated Flight Display"
+        },
+        {
+          "id": "cJjyQD5mlfK9",
+          "uri": "articles/a-guidance-system.html",
+          "title": "A Guidance System"
+        },
+        {
+          "id": "4eYgxCYTaXvO",
+          "uri": "articles/display-and-keyboard-assembly-(dsky).html",
+          "title": "Display and Keyboard Assembly (DSKY)",
+          "lead": "A Closer Look"
+        }
+      ]
+    },
+    {
+      "articles": [
+        {
+          "id": "XviNXwyu3nGd",
+          "uri": "articles/sextant-and-telescope.html",
+          "title": "Sextant and Telescope"
+        },
+        {
+          "id": "PSL71WQdvOq1",
+          "uri": "articles/marking-the-days.html",
+          "title": "Marking the Days"
+        },
+        {
+          "id": "3QWJpbbaeFHP",
+          "uri": "articles/the-best-ship.html",
+          "title": "The Best Ship"
+        }
+      ]
+    },
+    {
+      "collection": {
+        "edanRecordId": "edanmdm:nasm_A19700102000",
+        "title": "Apollo Command Module Interior"
+      },
+      "images": [
+        {
+          "uri": "scene-image-thumb.jpg",
+          "quality": "Thumb",
+          "byteSize": 29583,
+          "width": 320,
+          "height": 320
+        },
+        {
+          "uri": "scene-image-low.jpg",
+          "quality": "Low",
+          "byteSize": 88965,
+          "width": 640,
+          "height": 640
+        },
+        {
+          "uri": "scene-image-medium.jpg",
+          "quality": "Medium",
+          "byteSize": 267396,
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "uri": "scene-image-high.jpg",
+          "quality": "High",
+          "byteSize": 762948,
+          "width": 2560,
+          "height": 2560
+        }
+      ],
+      "articles": [
+        {
+          "id": "DpVB1dDfH185",
+          "uri": "articles/crew-compartment.html",
+          "title": "Crew Compartment",
+          "lead": "Into the Pressure Hull"
+        }
+      ]
+    }
+  ],
+  "setups": [
+    {
+      "interface": {
+        "visible": true,
+        "logo": true,
+        "menu": true,
+        "tools": true
+      },
+      "reader": {
+        "enabled": false,
+        "position": "Overlay"
+      },
+      "viewer": {
+        "shader": "Default",
+        "exposure": 1,
+        "gamma": 2
+      },
+      "navigation": {
+        "enabled": true,
+        "autoZoom": false,
+        "autoRotation": false,
+        "lightsFollowCamera": false,
+        "type": "Orbit",
+        "orbit": {
+          "orbit": [
+            -8.6609859,
+            -32.8370423,
+            0
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "minOrbit": [
+            -90,
+            null,
+            null
+          ],
+          "maxOrbit": [
+            90,
+            null,
+            null
+          ],
+          "minOffset": [
+            0,
+            0,
+            0
+          ],
+          "maxOffset": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "background": {
+        "style": "RadialGradient",
+        "color0": [
+          0.2,
+          0.25,
+          0.3
+        ],
+        "color1": [
+          0.01,
+          0.03,
+          0.05
+        ]
+      },
+      "floor": {
+        "visible": false,
+        "position": [
+          0,
+          -25,
+          0
+        ],
+        "size": 50,
+        "color": [
+          0.6,
+          0.75,
+          0.8
+        ],
+        "opacity": 0.5,
+        "receiveShadow": false
+      },
+      "grid": {
+        "visible": false,
+        "color": [
+          0.5,
+          0.7,
+          0.8
+        ]
+      },
+      "tape": {
+        "enabled": false,
+        "startPosition": [
+          -1.66893,
+          19.6101619,
+          -19.9079514
+        ],
+        "startDirection": [
+          -0.997167,
+          0.0351941,
+          -0.0664778
+        ],
+        "endPosition": [
+          -3.9932775,
+          4.1129542,
+          13.7689067
+        ],
+        "endDirection": [
+          -0.8605058,
+          0.1610993,
+          0.4832978
+        ]
+      },
+      "slicer": {
+        "enabled": false,
+        "axis": "X",
+        "position": 0.5,
+        "inverted": false
+      },
+      "tours": [
+        {
+          "title": "Command Module",
+          "steps": [
+            {
+              "title": "Start",
+              "id": "7DrAA1"
+            },
+            {
+              "title": "Crew Compartment",
+              "id": "SCM1s3"
+            },
+            {
+              "title": "Interior",
+              "id": "76GUJv"
+            },
+            {
+              "title": "Entrances",
+              "id": "5Ap3A0"
+            },
+            {
+              "title": "Docking Tunnel",
+              "id": "i4MWAb"
+            },
+            {
+              "title": "Forward Hatch",
+              "id": "ut8MUK"
+            },
+            {
+              "title": "Side Hatch",
+              "id": "DF2v6z"
+            },
+            {
+              "title": "Crew Couches",
+              "id": "eGjDwy"
+            },
+            {
+              "title": "Displays and Controls",
+              "id": "spSCcJ"
+            },
+            {
+              "title": "Commander's Controls",
+              "id": "cbjPXW"
+            },
+            {
+              "title": "Pilot Controls",
+              "id": "2lRDhV"
+            },
+            {
+              "title": "Lunar Module Pilot Controls",
+              "id": "FqjCPq"
+            },
+            {
+              "title": "Toggle Switches",
+              "id": "PL2ebj"
+            },
+            {
+              "title": "Pushbutton Switches",
+              "id": "8MJpDj"
+            },
+            {
+              "title": "Rotary Switches",
+              "id": "xxwmWb"
+            },
+            {
+              "title": "Variable Controls",
+              "id": "ngX5hp"
+            },
+            {
+              "title": "Rotation and Translation Controls",
+              "id": "0MgDn9"
+            },
+            {
+              "title": "FDAI Display",
+              "id": "wdIBfV"
+            },
+            {
+              "title": "Early Monitor System",
+              "id": "7Yp8dX"
+            },
+            {
+              "title": "DSKY",
+              "id": "g8KxQh"
+            },
+            {
+              "title": "G&N Controls",
+              "id": "IAkrH3"
+            },
+            {
+              "title": "Sextant and Telescope",
+              "id": "sBOa1U"
+            },
+            {
+              "title": "ECS Controls",
+              "id": "D0whWa"
+            },
+            {
+              "title": "Waste Management",
+              "id": "gGQclu"
+            },
+            {
+              "title": "Storage Lockers",
+              "id": "onv167"
+            },
+            {
+              "title": "Calendar",
+              "id": "4doMRG"
+            },
+            {
+              "title": "Epitaph",
+              "id": "z0SkrM"
+            },
+            {
+              "title": "End",
+              "id": "2EQRaP"
+            }
+          ],
+          "lead": "Explore the interior of the Columbia Command Module"
+        }
+      ],
+      "snapshots": {
+        "features": [
+          "reader",
+          "viewer",
+          "navigation",
+          "models"
+        ],
+        "targets": [
+          "scenes/0/setup/reader/enabled",
+          "scenes/0/setup/reader/articleId",
+          "scenes/0/setup/navigation/orbit",
+          "scenes/0/setup/navigation/offset",
+          "node/7/position",
+          "node/7/rotation",
+          "node/7/scale",
+          "node/8/position",
+          "node/8/rotation",
+          "node/8/scale",
+          "node/9/position",
+          "node/9/rotation",
+          "node/9/scale",
+          "node/10/position",
+          "node/10/rotation",
+          "node/10/scale",
+          "scenes/0/setup/viewer/annotationsVisible",
+          "scenes/0/setup/viewer/activeAnnotation",
+          "scenes/0/setup/viewer/activeTags",
+          "scenes/0/setup/viewer/shader",
+          "scenes/0/setup/viewer/exposure"
+        ],
+        "states": [
+          {
+            "id": "7DrAA1",
+            "values": [
+              false,
+              "",
+              [
+                -10.83,
+                -26.33,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                83.5,
+                2.4,
+                -76.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                83.5,
+                2.4,
+                -76.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                83.5,
+                2.4,
+                -76.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                83.5,
+                2.4,
+                -76.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "cDd6NCkFWIIN",
+              "",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "76GUJv",
+            "values": [
+              false,
+              "",
+              [
+                -8.52,
+                20.86,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                -75.6,
+                2.4,
+                -76.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -75.6,
+                2.4,
+                -76.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -75.6,
+                2.4,
+                -76.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -75.6,
+                2.4,
+                -76.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "cDd6NCkFWIIN",
+              "",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "5Ap3A0",
+            "values": [
+              false,
+              "",
+              [
+                6.25,
+                158.51,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                -17.2,
+                4.9,
+                20.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -17.2,
+                4.9,
+                20.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -17.2,
+                4.9,
+                20.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -75,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "fuq7NLYJDhfc",
+              "Module",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "i4MWAb",
+            "values": [
+              false,
+              "",
+              [
+                64.23,
+                -1.63,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                22.8,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                0,
+                22.8,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                0,
+                22.8,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                0,
+                22.8,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "TX0kI5YashRy",
+              "Module",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "ut8MUK",
+            "values": [
+              false,
+              "",
+              [
+                64.1877256,
+                150.68,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                -13,
+                -55.2,
+                60
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -13,
+                -55.2,
+                60
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -13,
+                -55.2,
+                60
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -13,
+                -55.2,
+                60
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "OFOXD3VmhpKM",
+              "Module",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "DF2v6z",
+            "values": [
+              false,
+              "",
+              [
+                7.4413357,
+                169.23,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                -17.2,
+                4.9,
+                20.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -17.2,
+                4.9,
+                20.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -17.2,
+                4.9,
+                20.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -17.2,
+                4.9,
+                20.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "cDd6NCkFWIIN",
+              "Module",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "eGjDwy",
+            "values": [
+              false,
+              "",
+              [
+                -29.6663037,
+                75.5718206,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                -124,
+                -7,
+                -36
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -124,
+                -7,
+                -36
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -124,
+                -7,
+                -36
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -124,
+                -7,
+                -36
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "poqCw7e8Wy6t",
+              "Module",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "spSCcJ",
+            "values": [
+              false,
+              "",
+              [
+                81.5494399,
+                -0.611925,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                40,
+                -41
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                0,
+                40,
+                -41
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                0,
+                40,
+                -41
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                0,
+                40,
+                -41
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "QzoVuZNxtLvW",
+              "Displays and Controls",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "cbjPXW",
+            "values": [
+              false,
+              "",
+              [
+                67.0101476,
+                -1.7725282,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                65.2,
+                40,
+                -41
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                65.2,
+                40,
+                -41
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                65.2,
+                40,
+                -41
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                65.2,
+                40,
+                -41
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "xVRuIapM0clB",
+              "Displays and Controls",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "2lRDhV",
+            "values": [
+              false,
+              "",
+              [
+                82.3268251,
+                -0.2232324,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                40,
+                -41
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                0,
+                40,
+                -41
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                0,
+                40,
+                -41
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                0,
+                40,
+                -41
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "DFYQymbPZI7j",
+              "Displays and Controls",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "FqjCPq",
+            "values": [
+              false,
+              "",
+              [
+                67.5565071,
+                -0.2232324,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                -65,
+                40,
+                -41
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -65,
+                40,
+                -41
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -65,
+                40,
+                -41
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -65,
+                40,
+                -41
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "licPXPoYSYJh",
+              "Displays and Controls",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "PL2ebj",
+            "values": [
+              false,
+              "",
+              [
+                53.0742049,
+                -25.4882501,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                -63.3,
+                -1,
+                -17.8
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -63.3,
+                -1,
+                -17.8
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -63.3,
+                -1,
+                -17.8
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -63.3,
+                -1,
+                -17.8
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "lBExm34SFHQC",
+              "Displays and Controls",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "8MJpDj",
+            "values": [
+              false,
+              "",
+              [
+                46.7884009,
+                2.1089231,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                45,
+                -1,
+                -21
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                45,
+                -1,
+                -21
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                45,
+                -1,
+                -21
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                45,
+                -1,
+                -21
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "GtjPnePBYSfi",
+              "Displays and Controls",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "xxwmWb",
+            "values": [
+              false,
+              "",
+              [
+                47.9205247,
+                0.9428453,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                -95,
+                4,
+                -24
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -95,
+                4,
+                -24
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -95,
+                4,
+                -24
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -95,
+                4,
+                -24
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "LLYQBUXqvY98",
+              "Displays and Controls",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "ngX5hp",
+            "values": [
+              false,
+              "",
+              [
+                38.9805954,
+                -140.9299462,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                -84,
+                -7.4,
+                -16.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -84,
+                -7.4,
+                -16.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -84,
+                -7.4,
+                -16.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -84,
+                -7.4,
+                -16.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "fsjAKenh8liB",
+              "Displays and Controls",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "0MgDn9",
+            "values": [
+              false,
+              "",
+              [
+                -7.2738216,
+                -318.1737624,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                -60.6,
+                3.1,
+                -57.7
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -60.6,
+                3.1,
+                -57.7
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -60.6,
+                3.1,
+                -57.7
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -60.6,
+                3.1,
+                -57.7
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "cP9V0iVPL4k3",
+              "Displays and Controls",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "wdIBfV",
+            "values": [
+              false,
+              "808CXa8oJNxQ",
+              [
+                61.9134576,
+                -367.1490275,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                30,
+                -3.8,
+                -55
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                30,
+                -3.8,
+                -55
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                30,
+                -3.8,
+                -55
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                30,
+                -3.8,
+                -55
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "UlvQuFIHE7Ei",
+              "Displays and Controls",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "7Yp8dX",
+            "values": [
+              false,
+              "cJjyQD5mlfK9",
+              [
+                62.3239935,
+                -353.9334798,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                57.5,
+                -12,
+                -50.3
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                57.5,
+                -12,
+                -50.3
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                57.5,
+                -12,
+                -50.3
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                57.5,
+                -12,
+                -50.3
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "mG2VMafUdW5G",
+              "Displays and Controls",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "g8KxQh",
+            "values": [
+              false,
+              "4eYgxCYTaXvO",
+              [
+                71.8048076,
+                -359.9948942,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                34.5,
+                3,
+                -30
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                34.5,
+                3,
+                -30
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                34.5,
+                3,
+                -30
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                34.5,
+                3,
+                -30
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "0s0Utq9ZFYpY",
+              "Displays and Controls",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "IAkrH3",
+            "values": [
+              false,
+              "mI8hJGJcfcxM",
+              [
+                -13.3922261,
+                -358.3612905,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                -29,
+                38.2
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                0,
+                -29,
+                38.2
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                0,
+                -29,
+                38.2
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                0,
+                -29,
+                38.2
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "0wakgpf39FWD",
+              "Lower Bay",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "sBOa1U",
+            "values": [
+              false,
+              "XviNXwyu3nGd",
+              [
+                -1.3427562,
+                -391.3213262,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                26,
+                -33,
+                69
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                26,
+                -33,
+                69
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                26,
+                -33,
+                69
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                26,
+                -33,
+                69
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "ppCpfRyFO0E8",
+              "Graffiti",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "D0whWa",
+            "values": [
+              false,
+              "YuUIyVUhJHTY",
+              [
+                -14.9469965,
+                -283.1914303,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                21.5,
+                41,
+                75
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                21.5,
+                41,
+                75
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                21.5,
+                41,
+                75
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                21.5,
+                41,
+                75
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "HMy3zNCEZGWZ",
+              "Lower Bay",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "gGQclu",
+            "values": [
+              false,
+              "Xxer9jL2eh0p",
+              [
+                -7.7983377,
+                -437.350192,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                -10,
+                41,
+                75
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -10,
+                41,
+                75
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -10,
+                41,
+                75
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -10,
+                41,
+                75
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "0QbsrZppLpgZ",
+              "Lower Bay",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "onv167",
+            "values": [
+              false,
+              "LX8o9OsX4iBc",
+              [
+                -13.3922261,
+                -417.60839,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                67,
+                80,
+                -45
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                67,
+                80,
+                -45
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                67,
+                80,
+                -45
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                67,
+                80,
+                -45
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "Zkne7DstDg63",
+              "Lower Bay",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "4doMRG",
+            "values": [
+              false,
+              "PSL71WQdvOq1",
+              [
+                -3.2862191,
+                -355.41758,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                69,
+                32.5,
+                90
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                69,
+                32.5,
+                90
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                69,
+                32.5,
+                90
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                69,
+                32.5,
+                90
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "oRl4cBSfEAQn",
+              "Graffiti",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "z0SkrM",
+            "values": [
+              false,
+              "3QWJpbbaeFHP",
+              [
+                2.9328622,
+                -365.9122796,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                11.3,
+                -33,
+                76
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                11.3,
+                -33,
+                76
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                11.3,
+                -33,
+                76
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                11.3,
+                -33,
+                76
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "OjJCdkJCRmDy",
+              "Graffiti",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "2EQRaP",
+            "values": [
+              false,
+              "",
+              [
+                -10.7067138,
+                -390.0112196,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                83.5,
+                2.4,
+                -76.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                83.5,
+                2.4,
+                -76.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                83.5,
+                2.4,
+                -76.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                83.5,
+                2.4,
+                -76.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "Ak0xkDTPxXOM",
+              "Module, Lower Bay, Displays and Controls, Graffiti",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "SCM1s3",
+            "values": [
+              true,
+              "DpVB1dDfH185",
+              [
+                -8.52,
+                20.86,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                -75.6,
+                2.4,
+                -76.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -75.6,
+                2.4,
+                -76.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -75.6,
+                2.4,
+                -76.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              [
+                -75.6,
+                2.4,
+                -76.6
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1
+              ],
+              true,
+              "cDd6NCkFWIIN",
+              "",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          }
+        ]
+      }
+    }
+  ]
+}

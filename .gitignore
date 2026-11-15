@@ -1,0 +1,28 @@
+# Unity
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/Logs/
+/UserSettings/
+/MemoryCaptures/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+.vs/
+.idea/
+*.apk
+*.unitypackage
+
+# downloaded originals and analysis dumps (kept locally)
+/SourceFiles/
+
+# NASA source images over GitHub's 100 MB limit (download links in README.md)
+Assets/Apollo/Textures/Moon/lroc_color_poles_16k.tif
+Assets/Apollo/Textures/Sky/milkyway_2020_8k.exr
+Assets/Apollo/Textures/Sky/starmap_2020_8k.exr
+Assets/Apollo/Textures/Sky/kloofendal_48d_partly_cloudy_puresky_8k.hdr

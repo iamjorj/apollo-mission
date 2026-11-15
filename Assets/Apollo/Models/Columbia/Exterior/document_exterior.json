@@ -1,0 +1,3074 @@
+{
+  "asset": {
+    "type": "application/si-dpo-3d.document+json",
+    "version": "1.0",
+    "generator": "Voyager",
+    "copyright": "(c) Smithsonian Institution. All rights reserved."
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "units": "cm",
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        6
+      ],
+      "meta": 3,
+      "setup": 0
+    }
+  ],
+  "nodes": [
+    {
+      "translation": [
+        360.6427459,
+        6.2743417,
+        603.0003114
+      ],
+      "rotation": [
+        -0.0417752,
+        0.2670339,
+        -0.0928933,
+        0.9582894
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "name": "Camera",
+      "camera": 0
+    },
+    {
+      "name": "Lights",
+      "children": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "translation": [
+        -192.1349818,
+        210.3613824,
+        354.2890025
+      ],
+      "rotation": [
+        0.4829741,
+        -0.1070728,
+        0.1880998,
+        0.8484633
+      ],
+      "scale": [
+        75.7716708,
+        75.7716708,
+        75.7716708
+      ],
+      "name": "Key",
+      "light": 0
+    },
+    {
+      "translation": [
+        346.2182013,
+        204.6843922,
+        211.9568738
+      ],
+      "rotation": [
+        0.3546969,
+        0.163893,
+        -0.3861077,
+        0.8356136
+      ],
+      "scale": [
+        75.7716708,
+        75.7716708,
+        75.7716708
+      ],
+      "name": "Fill #1",
+      "light": 1
+    },
+    {
+      "translation": [
+        -265.295383,
+        -346.9322082,
+        126.2729678
+      ],
+      "rotation": [
+        0.9374013,
+        -0.3018693,
+        0.0532277,
+        0.1652891
+      ],
+      "scale": [
+        75.7716708,
+        75.7716708,
+        75.7716708
+      ],
+      "name": "Fill #2",
+      "light": 2
+    },
+    {
+      "translation": [
+        394.9059512,
+        23.5450747,
+        -224.01647
+      ],
+      "rotation": [
+        0.373256,
+        0.6426073,
+        -0.5786063,
+        0.3360813
+      ],
+      "scale": [
+        75.7716708,
+        75.7716708,
+        75.7716708
+      ],
+      "name": "Rim",
+      "light": 3
+    },
+    {
+      "rotation": [
+        0.0850898,
+        0.018864,
+        -0.215616,
+        0.9725809
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "name": "Exterior",
+      "children": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "x3d-cm-exterior-shell-90k-uvs",
+      "model": 0,
+      "meta": 0
+    },
+    {
+      "name": "x3d-cm-exterior-top-160k-uvs",
+      "model": 1,
+      "meta": 1
+    },
+    {
+      "name": "x3d-cm-exterior-filler",
+      "model": 2,
+      "meta": 2
+    }
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "yfov": 52,
+        "znear": 2.8105855,
+        "zfar": 2810.5855137
+      },
+      "autoNearFar": true
+    }
+  ],
+  "lights": [
+    {
+      "color": [
+        1,
+        0.95,
+        0.9
+      ],
+      "intensity": 1,
+      "type": "directional",
+      "shadowEnabled": true,
+      "shadowSize": 757.7167084
+    },
+    {
+      "color": [
+        0.9,
+        0.95,
+        1
+      ],
+      "intensity": 0.7,
+      "type": "directional",
+      "shadowEnabled": true,
+      "shadowSize": 757.7167084
+    },
+    {
+      "color": [
+        0.8,
+        0.85,
+        1
+      ],
+      "intensity": 0.5,
+      "type": "directional"
+    },
+    {
+      "color": [
+        0.85,
+        0.9078313,
+        1
+      ],
+      "intensity": 0.6,
+      "type": "directional"
+    }
+  ],
+  "models": [
+    {
+      "units": "cm",
+      "translation": [
+        0,
+        -166.82,
+        0
+      ],
+      "boundingBox": {
+        "min": [
+          -195.5240936,
+          43.5783005,
+          -195.4403076
+        ],
+        "max": [
+          194.9799042,
+          255.766571,
+          196.7393799
+        ]
+      },
+      "derivatives": [
+        {
+          "usage": "Web3D",
+          "quality": "Thumb",
+          "assets": [
+            {
+              "uri": "x3d-cm-exterior-shell-90k-uvs-20k-512-thumb.glb",
+              "type": "Model",
+              "byteSize": 128448,
+              "numFaces": 20000,
+              "imageSize": 512
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "Low",
+          "assets": [
+            {
+              "uri": "x3d-cm-exterior-shell-90k-uvs-150k-1024-low.glb",
+              "type": "Model",
+              "byteSize": 685844,
+              "numFaces": 150000,
+              "imageSize": 1024
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "Medium",
+          "assets": [
+            {
+              "uri": "x3d-cm-exterior-shell-90k-uvs-150k-2048-medium.glb",
+              "type": "Model",
+              "byteSize": 1354732,
+              "numFaces": 150000,
+              "imageSize": 2048
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "High",
+          "assets": [
+            {
+              "uri": "x3d-cm-exterior-shell-90k-uvs-150k-4096-high.glb",
+              "type": "Model",
+              "byteSize": 3101904,
+              "numFaces": 150000,
+              "imageSize": 4096
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "AR",
+          "assets": [
+            {
+              "uri": "x3d-cm-exterior-shell-90k-uvs-50k-ar.glb",
+              "type": "Model",
+              "byteSize": 1243168,
+              "numFaces": 50000,
+              "imageSize": 2048
+            }
+          ]
+        },
+        {
+          "usage": "App3D",
+          "quality": "AR",
+          "assets": [
+            {
+              "uri": "multi-mesh2-100k-2048_std_draco.glb",
+              "type": "Model",
+              "byteSize": 2695444,
+              "numFaces": 100000,
+              "imageSize": 2048
+            }
+          ]
+        },
+        {
+          "usage": "iOSApp3D",
+          "quality": "AR",
+          "assets": [
+            {
+              "uri": "multi-mesh2-100k-2048_std.usdz",
+              "type": "Model",
+              "byteSize": 11711459,
+              "numFaces": 100000,
+              "imageSize": 2048
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "CTti19m17vLw",
+          "title": "Doors and Windows",
+          "lead": "The command module's exterior has openings for two doors and five windows.",
+          "taglist": {
+            "EN": [
+              "Shell"
+            ]
+          },
+          "articleId": "9vKzddSJvytG",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            49.8933469,
+            51.7896574,
+            112.4199911
+          ],
+          "direction": [
+            0.4494005,
+            0.5353728,
+            0.715133
+          ],
+          "scale": 15.345977,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "U7ZLLzZwUBUx",
+          "title": "Windows",
+          "lead": "Five windows allow astronauts both outwards and forwards-facing views of their environment.",
+          "taglist": {
+            "EN": [
+              "Shell"
+            ]
+          },
+          "articleId": "0uoSRXHoea4N",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -89.4138915,
+            42.1313614,
+            92.7578
+          ],
+          "direction": [
+            -0.6308198,
+            0.5367846,
+            0.5602934
+          ],
+          "scale": 15.345977,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "1LsDNzEJo59J",
+          "title": "Sea Anchor Attach Point",
+          "taglist": {
+            "EN": [
+              "Re-Entry"
+            ]
+          },
+          "articleId": "WLLAfBCm6cpl",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -0.6316623,
+            -24.8903903,
+            175.8108322
+          ],
+          "direction": [
+            0.0117994,
+            0.0983285,
+            0.9950841
+          ],
+          "scale": 15.345977
+        },
+        {
+          "id": "fITr2xVkuX1t",
+          "title": "EVA Handles",
+          "lead": "The extravehicular activity (EVA) handles are fitted with small \"Radio Luminescent Disks\" to enhance their visibility to astronauts during spacewalks.",
+          "taglist": {
+            "EN": [
+              "Space"
+            ]
+          },
+          "articleId": "WLLAfBCm6cpl",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            83.4167714,
+            -11.7136375,
+            141.6354221
+          ],
+          "direction": [
+            0.4121388,
+            0.3964383,
+            0.8203525
+          ],
+          "scale": 15.345977,
+          "color": [
+            0.5,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "FMyyRbcDeweX",
+          "title": "Positive Pitch Engines",
+          "lead": "A set of thrusters control the motion of the spacecraft during approach and re-entry.",
+          "taglist": {
+            "EN": [
+              "Engines"
+            ]
+          },
+          "articleId": "DGLLxHTEFm4c",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            9.723817,
+            -45.3062181,
+            183.0727363
+          ],
+          "direction": [
+            0.3262084,
+            -0.3340688,
+            0.8842998
+          ],
+          "scale": 15.345977,
+          "color": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "6j49OFrNPyOE",
+          "title": "Roll Engines",
+          "lead": "A set of thrusters control the motion of the spacecraft during approach and re-entry.",
+          "taglist": {
+            "EN": [
+              "Engines"
+            ]
+          },
+          "articleId": "DGLLxHTEFm4c",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -128.8895896,
+            -35.4802429,
+            123.4049243
+          ],
+          "direction": [
+            -0.5978615,
+            0.5509704,
+            0.5822312
+          ],
+          "scale": 15.345977,
+          "color": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "2Qb2QWuySj9V",
+          "title": "Waste Management System",
+          "lead": "The command module's waste system expels liquid waste into space through fixtures mounted on the side of the spacecraft.",
+          "taglist": {
+            "EN": [
+              "Space"
+            ]
+          },
+          "articleId": "tE6u1ZXmBriy",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -124.4066709,
+            -50.7919118,
+            145.1612301
+          ],
+          "direction": [
+            0.3267742,
+            0.1929149,
+            0.925204
+          ],
+          "scale": 15.345977,
+          "color": [
+            0.5,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "0B7nBIPpkuyW",
+          "title": "S-Band Antenna",
+          "lead": "The antenna is used for radio communications during the early phases of re-entry.",
+          "taglist": {
+            "EN": [
+              "Re-Entry"
+            ]
+          },
+          "articleId": "nbo8hSdC6uBL",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -140.1342784,
+            -66.9210816,
+            137.5554924
+          ],
+          "direction": [
+            -0.714871,
+            -0.0039064,
+            0.6992454
+          ],
+          "scale": 15.346
+        },
+        {
+          "id": "09lVKKAhAekZ",
+          "title": "Steam Vent",
+          "lead": "Part of Columbia's environmental control system.",
+          "taglist": {
+            "EN": [
+              "Shell"
+            ]
+          },
+          "articleId": "RTOIsNa45iCX",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -160.9342203,
+            -45.8950074,
+            85.0334772
+          ],
+          "direction": [
+            -0.9613019,
+            0.2236498,
+            0.1608709
+          ],
+          "scale": 15.345977,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "BYbOCXr2PFqV",
+          "title": "Yaw Engines",
+          "lead": "A set of thrusters control the motion of the spacecraft during approach and re-entry.",
+          "taglist": {
+            "EN": [
+              "Engines"
+            ]
+          },
+          "articleId": "DGLLxHTEFm4c",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -184.02034,
+            -44.6073506,
+            -1.0326398
+          ],
+          "direction": [
+            -0.8276419,
+            0.5609137,
+            -0.0196124
+          ],
+          "scale": 15.345977,
+          "color": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "t6wg6R5sgnbH",
+          "title": "Negative Pitch Engines",
+          "lead": "A set of thrusters control the motion of the spacecraft during approach and re-entry.",
+          "taglist": {
+            "EN": [
+              "Engines"
+            ]
+          },
+          "articleId": "DGLLxHTEFm4c",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -2.2368402,
+            88.6263377,
+            99.1094066
+          ],
+          "direction": [
+            -0.0117885,
+            0.8919949,
+            0.4518917
+          ],
+          "scale": 15.345977,
+          "color": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "h25iOgfsEDgS",
+          "title": "Roll Engines",
+          "lead": "A set of thrusters control the motion of the spacecraft during approach and re-entry.",
+          "taglist": {
+            "EN": [
+              "Engines"
+            ]
+          },
+          "articleId": "DGLLxHTEFm4c",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            129.9406026,
+            -38.3412615,
+            122.8007786
+          ],
+          "direction": [
+            0.852858,
+            0.4912777,
+            0.17686
+          ],
+          "scale": 15.345977,
+          "color": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "lkuiFMhrPqu0",
+          "title": "Yaw Engines",
+          "lead": "A set of thrusters control the motion of the spacecraft during approach and re-entry.",
+          "taglist": {
+            "EN": [
+              "Engines"
+            ]
+          },
+          "articleId": "DGLLxHTEFm4c",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            185.5982051,
+            -46.9195936,
+            1.5522951
+          ],
+          "direction": [
+            0.8312822,
+            0.5555014,
+            -0.0196986
+          ],
+          "scale": 15.345977,
+          "color": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "5RJe06F3OQHb",
+          "title": "Central Heat Shield",
+          "lead": "Protects the crew compartment",
+          "taglist": {
+            "EN": [
+              "Re-Entry"
+            ]
+          },
+          "articleId": "V7lmWF40Yqfn",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -104.7075698,
+            22.7160162,
+            -93.9429716
+          ],
+          "direction": [
+            -0.6335883,
+            0.5391403,
+            -0.5548816
+          ],
+          "scale": 15.345977
+        },
+        {
+          "id": "K5fDMMifRasq",
+          "title": "Sextant and Telescope",
+          "lead": "Sextant and Telescope part of the command module's navigation and guidance system.",
+          "taglist": {
+            "EN": [
+              "Space"
+            ]
+          },
+          "articleId": "RSZmUnv5qDP1",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            7.6251143,
+            72.0431605,
+            -107.1847322
+          ],
+          "direction": [
+            0.051011,
+            0.5218817,
+            -0.8514912
+          ],
+          "scale": 15.345977,
+          "color": [
+            0.5,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "0isgc959NKUw",
+          "title": "Umbilical Connector",
+          "lead": "The entry point to the command module for water, coolant, and electric power, stored or produced in the service module.",
+          "taglist": {
+            "EN": [
+              "Space"
+            ]
+          },
+          "articleId": "TC0iB1H7NKOw",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            8.802223,
+            -28.667194,
+            -168.7855388
+          ],
+          "direction": [
+            0.0352871,
+            0.5606722,
+            -0.8272856
+          ],
+          "scale": 15.345977,
+          "color": [
+            0.5,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "YzdxZNaRABSA",
+          "title": "Command Module Exterior",
+          "lead": "Composed of an inner structure, or pressure shell joined to an outer structure or heat shield (visible from the outside).",
+          "taglist": {
+            "EN": [
+              "Shell"
+            ]
+          },
+          "articleId": "OTvODFlIwBjD",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            139.6647323,
+            16.1083984,
+            -39.9028081
+          ],
+          "direction": [
+            0.8127527,
+            0.5379088,
+            -0.2238015
+          ],
+          "scale": 15.345977,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "G6DvfZKIZjSC",
+          "title": "S-Band Antenna",
+          "lead": "The antenna is used for radio communications during the early phases of re-entry.",
+          "taglist": {
+            "EN": [
+              "Re-Entry"
+            ]
+          },
+          "articleId": "nbo8hSdC6uBL",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            136.7584244,
+            -65.835817,
+            139.2831692
+          ],
+          "direction": [
+            0.691306,
+            -0.0039057,
+            0.7225515
+          ],
+          "scale": 15.346
+        },
+        {
+          "id": "xSH5UBQLa5L9",
+          "title": "Aft Heat Shield and Aft Compartment",
+          "lead": "Has a thick layer of ablative material, which dissipates the extreme heat generated during re-entry",
+          "taglist": {
+            "EN": [
+              "Re-Entry"
+            ]
+          },
+          "articleId": "Lnex0EqwRsBB",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            124.0752173,
+            -90.5501584,
+            112.2334995
+          ],
+          "direction": [
+            0.2468729,
+            -0.920875,
+            0.3017335
+          ],
+          "scale": 15.345977
+        },
+        {
+          "id": "eWMVP3tsYaiJ",
+          "title": "Ablative Material",
+          "lead": "Fiberglass honeycomb cells filled with material to remove the heat of re-entry.",
+          "taglist": {
+            "EN": [
+              "Re-Entry"
+            ]
+          },
+          "articleId": "sEa1dsr4iEED",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -102.7462262,
+            -110.8129553,
+            -23.9529517
+          ],
+          "direction": [
+            -0.2079935,
+            -0.9771771,
+            -0.0431685
+          ],
+          "scale": 15.345977
+        },
+        {
+          "id": "qrXqtzDeRmYU",
+          "title": "Service Module Attachment Points",
+          "lead": "Six pads allowed the command module to safely contact the service module.  Three ties attached the command module to the service module.",
+          "taglist": {
+            "EN": [
+              "SM Attachment Points"
+            ]
+          },
+          "articleId": "RfKcU1kUjz20",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -32.7001987,
+            -99.2476471,
+            -147.1184729
+          ],
+          "direction": [
+            -0.0743351,
+            -0.9428821,
+            -0.324727
+          ],
+          "scale": 15.345977,
+          "color": [
+            0,
+            0,
+            0.87
+          ]
+        },
+        {
+          "id": "YOSpxzhA8Wfc",
+          "title": "Service Module Attachment Points",
+          "lead": "Six pads allowed the command module to safely contact the service module.  Three ties attached the command module to the service module.",
+          "taglist": {
+            "EN": [
+              "SM Attachment Points"
+            ]
+          },
+          "articleId": "RfKcU1kUjz20",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -135.7602683,
+            -97.308399,
+            -70.0301847
+          ],
+          "direction": [
+            -0.3723601,
+            -0.9211013,
+            -0.1136678
+          ],
+          "scale": 15.345977,
+          "color": [
+            0,
+            0,
+            0.87
+          ]
+        },
+        {
+          "id": "Zu2dVmTFSCYr",
+          "title": "Service Module Attachment Points",
+          "lead": "Six pads allowed the command module to safely contact the service module.  Three ties attached the command module to the service module.",
+          "taglist": {
+            "EN": [
+              "SM Attachment Points"
+            ]
+          },
+          "articleId": "RfKcU1kUjz20",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            109.1073218,
+            -99.4992929,
+            -101.190412
+          ],
+          "direction": [
+            0.3242311,
+            -0.9336294,
+            -0.1523496
+          ],
+          "scale": 15.345977,
+          "color": [
+            0,
+            0,
+            0.87
+          ]
+        },
+        {
+          "id": "tkTIeBhMINDm",
+          "title": "Service Module Attachment Points",
+          "lead": "Six pads allowed the command module to safely contact the service module.  Three ties attached the command module to the service module.",
+          "taglist": {
+            "EN": [
+              "SM Attachment Points"
+            ]
+          },
+          "articleId": "RfKcU1kUjz20",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            32.4113192,
+            -97.6390722,
+            150.0863094
+          ],
+          "direction": [
+            0.0746327,
+            -0.9309449,
+            0.3574514
+          ],
+          "scale": 15.345977,
+          "color": [
+            0,
+            0,
+            0.87
+          ]
+        },
+        {
+          "id": "PVAklyX28Kjs",
+          "title": "Service Module Attachment Points",
+          "lead": "Six pads allowed the command module to safely contact the service module.  Three ties attached the command module to the service module.",
+          "taglist": {
+            "EN": [
+              "SM Attachment Points"
+            ]
+          },
+          "articleId": "RfKcU1kUjz20",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -113.677149,
+            -97.0660392,
+            101.5610998
+          ],
+          "direction": [
+            -0.2693772,
+            -0.9174439,
+            0.2928013
+          ],
+          "scale": 15.345977,
+          "color": [
+            0,
+            0,
+            0.87
+          ]
+        },
+        {
+          "id": "igajSoIDpWnX",
+          "title": "Service Module Attachment Points",
+          "lead": "Six pads allowed the command module to safely contact the service module.  Three ties attached the command module to the service module.",
+          "taglist": {
+            "EN": [
+              "SM Attachment Points"
+            ]
+          },
+          "articleId": "RfKcU1kUjz20",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            134.3678479,
+            -98.9394542,
+            68.0406309
+          ],
+          "direction": [
+            0.3487997,
+            -0.8817971,
+            0.317447
+          ],
+          "scale": 15.345977,
+          "color": [
+            0,
+            0,
+            0.87
+          ]
+        }
+      ]
+    },
+    {
+      "units": "cm",
+      "translation": [
+        0,
+        -166.82,
+        0
+      ],
+      "boundingBox": {
+        "min": [
+          -97.7807007,
+          251.5202942,
+          -97.7807007
+        ],
+        "max": [
+          97.7807007,
+          317.6862488,
+          97.7807007
+        ]
+      },
+      "derivatives": [
+        {
+          "usage": "Web3D",
+          "quality": "Thumb",
+          "assets": [
+            {
+              "uri": "x3d-cm-exterior-top-160k-uvs-20k-512-thumb.glb",
+              "type": "Model",
+              "byteSize": 97404,
+              "numFaces": 20000,
+              "imageSize": 512
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "Low",
+          "assets": [
+            {
+              "uri": "x3d-cm-exterior-top-160k-uvs-150k-1024-low.glb",
+              "type": "Model",
+              "byteSize": 574804,
+              "numFaces": 150000,
+              "imageSize": 1024
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "Medium",
+          "assets": [
+            {
+              "uri": "x3d-cm-exterior-top-160k-uvs-150k-2048-medium.glb",
+              "type": "Model",
+              "byteSize": 1027360,
+              "numFaces": 150000,
+              "imageSize": 2048
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "High",
+          "assets": [
+            {
+              "uri": "x3d-cm-exterior-top-160k-uvs-150k-4096-high.glb",
+              "type": "Model",
+              "byteSize": 2020588,
+              "numFaces": 150000,
+              "imageSize": 4096
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "AR",
+          "assets": [
+            {
+              "uri": "x3d-cm-exterior-top-160k-uvs-70k-ar.glb",
+              "type": "Model",
+              "byteSize": 2584812,
+              "numFaces": 70000,
+              "imageSize": 2048
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "qpg7F6b01hnF",
+          "title": "Drogue Chute Mortars",
+          "lead": "Deploy two parachutes at 24,000 feet.",
+          "taglist": {
+            "EN": [
+              "Re-Entry"
+            ]
+          },
+          "articleId": "mOJVPoLF1Igs",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            22.9822928,
+            93.5807929,
+            48.3064905
+          ],
+          "direction": [
+            0.2155637,
+            0.9523994,
+            0.2155637
+          ],
+          "scale": 18.745977,
+          "offset": -1.9
+        },
+        {
+          "id": "TjPsDthza1P8",
+          "title": "Forward Heat Shield",
+          "lead": "Protects the parachutes and other equipment used to safely land in the ocean after reentry.",
+          "taglist": {
+            "EN": [
+              "Re-Entry"
+            ]
+          },
+          "articleId": "NoG95P9RQC6N",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -3.6830494,
+            145.007821,
+            -30.8585311
+          ],
+          "direction": [
+            0.0977555,
+            0.5200592,
+            0.8485177
+          ],
+          "scale": 15.345977
+        },
+        {
+          "id": "3eepNHGGIT68",
+          "title": "Dye Marker and Swimmer Umbilical",
+          "lead": "The marker releases dye into the water at landing, while the umbilical provides a communications link with recovery divers.",
+          "taglist": {
+            "EN": [
+              "Re-Entry"
+            ]
+          },
+          "articleId": "vB0ePELMOWaG",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -39.1000435,
+            92.781197,
+            72.2286677
+          ],
+          "direction": [
+            -0.985026,
+            -0.0353197,
+            0.1687495
+          ],
+          "scale": 15.345977
+        },
+        {
+          "id": "r0lgsCtzPgjz",
+          "title": "Pilot Chute Mortars",
+          "lead": "Mortars launch parachutes that enable a safe landing in the ocean",
+          "taglist": {
+            "EN": [
+              "Re-Entry"
+            ]
+          },
+          "articleId": "daLj6I2xeVmZ",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -50.6218095,
+            92.8319905,
+            -26.1917109
+          ],
+          "direction": [
+            0.12914,
+            0.7317932,
+            -0.6691798
+          ],
+          "scale": 15.345977
+        },
+        {
+          "id": "Q6SmsRAKaNSe",
+          "title": "Forward Compartment",
+          "lead": "Area outside the forward access tunnel (leading to the lunar module).",
+          "taglist": {
+            "EN": [
+              "Re-Entry"
+            ]
+          },
+          "articleId": "0FrH7UyTs2Xj",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            43.08564,
+            92.7714094,
+            -12.6472709
+          ],
+          "direction": [
+            0.6624904,
+            0.7173713,
+            -0.2156034
+          ],
+          "scale": 15.345977
+        }
+      ]
+    },
+    {
+      "units": "cm",
+      "translation": [
+        0,
+        -166.82,
+        0
+      ],
+      "material": {
+        "color": [
+          0.3373494,
+          0.3268072,
+          0.3268072
+        ],
+        "opacity": 1,
+        "hiddenOpacity": 0,
+        "roughness": 0.8,
+        "metalness": 0.1,
+        "occlusion": 0.3,
+        "doubleSided": false
+      },
+      "boundingBox": {
+        "min": [
+          -154.1289063,
+          152.501297,
+          28.7516003
+        ],
+        "max": [
+          156.8233032,
+          246.4721375,
+          148.5924225
+        ]
+      },
+      "derivatives": [
+        {
+          "usage": "Web3D",
+          "quality": "High",
+          "assets": [
+            {
+              "uri": "x3d-cm-exterior-filler-web.glb",
+              "type": "Model",
+              "byteSize": 3046004,
+              "numFaces": 150000,
+              "imageSize": 4096
+            }
+          ]
+        },
+        {
+          "usage": "Web3D",
+          "quality": "AR",
+          "assets": [
+            {
+              "uri": "x3d-cm-exterior-filler-10k-ar.glb",
+              "type": "Model",
+              "byteSize": 63600,
+              "numFaces": 10000,
+              "imageSize": 2048
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "xuch1wd5uIWs",
+          "title": "Crew Access Hatch",
+          "lead": "Used by the crew to enter and leave the command module, the hatch has primary and secondary thermal seals.",
+          "taglist": {
+            "EN": [
+              "Shell"
+            ]
+          },
+          "articleId": "UoJOkpv3TOGX",
+          "style": "Extended",
+          "visible": false,
+          "position": [
+            -12.722878,
+            20.379035,
+            126.493635
+          ],
+          "direction": [
+            -0.0746327,
+            0.5302851,
+            0.8445281
+          ],
+          "scale": 15.345977,
+          "color": [
+            0,
+            1,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "metas": [
+    {
+      "articles": [
+        {
+          "id": "9vKzddSJvytG",
+          "uri": "articles/doors-and-windows.html",
+          "titles": {
+            "EN": "Doors and Windows"
+          }
+        },
+        {
+          "id": "0uoSRXHoea4N",
+          "uri": "articles/looking-out.html",
+          "titles": {
+            "EN": "Looking Out"
+          }
+        },
+        {
+          "id": "WLLAfBCm6cpl",
+          "uri": "articles/eva-handles.html",
+          "titles": {
+            "EN": "EVA Handles"
+          },
+          "lead": "A Closer Look"
+        },
+        {
+          "id": "tE6u1ZXmBriy",
+          "uri": "articles/disposing-of-liquid-waste.html",
+          "titles": {
+            "EN": "Disposing of Liquid Waste"
+          }
+        },
+        {
+          "id": "nbo8hSdC6uBL",
+          "uri": "articles/radio-communication.html",
+          "titles": {
+            "EN": "Radio Communication"
+          }
+        },
+        {
+          "id": "RTOIsNa45iCX",
+          "uri": "articles/a-multi-purpose-opening.html",
+          "titles": {
+            "EN": "A Multi-Purpose Opening"
+          }
+        },
+        {
+          "id": "DGLLxHTEFm4c",
+          "uri": "articles/reaction-control-systems-01.html",
+          "titles": {
+            "EN": "Reaction Control Systems"
+          }
+        },
+        {
+          "id": "V7lmWF40Yqfn",
+          "uri": "articles/central-heat-shield.html",
+          "titles": {
+            "EN": "Central Heat Shield"
+          },
+          "lead": "Major Features"
+        },
+        {
+          "id": "RSZmUnv5qDP1",
+          "uri": "articles/cm-guidance-system-instruments.html",
+          "titles": {
+            "EN": "CM Guidance System Instruments"
+          }
+        },
+        {
+          "id": "TC0iB1H7NKOw",
+          "uri": "articles/connceting-columbia-to-the-service-module.html",
+          "titles": {
+            "EN": "Connceting Columbia to the Service Module"
+          }
+        },
+        {
+          "id": "OTvODFlIwBjD",
+          "uri": "articles/command-module-exterior.html",
+          "titles": {
+            "EN": "Command Module Exterior"
+          },
+          "lead": "A Closer Look"
+        },
+        {
+          "id": "Lnex0EqwRsBB",
+          "uri": "articles/aft-heat-shield-and-aft-compartment.html",
+          "titles": {
+            "EN": "Aft Heat Shield and Aft Compartment"
+          }
+        },
+        {
+          "id": "sEa1dsr4iEED",
+          "uri": "articles/ablative-material.html",
+          "titles": {
+            "EN": "Ablative Material"
+          },
+          "lead": "Thermal Protection"
+        },
+        {
+          "id": "RfKcU1kUjz20",
+          "uri": "articles/compression-pads-and-tension-ties.html",
+          "titles": {
+            "EN": "Compression Pads and Tension Ties"
+          }
+        }
+      ]
+    },
+    {
+      "articles": [
+        {
+          "id": "mOJVPoLF1Igs",
+          "uri": "articles/a-series-of-parachutes-slows-the-descent.html",
+          "titles": {
+            "EN": "A Series of Parachutes Slows the Descent"
+          }
+        },
+        {
+          "id": "NoG95P9RQC6N",
+          "uri": "articles/forward-heat-shield--jettisoned-during-reentry.html",
+          "titles": {
+            "EN": "Forward Heat Shield: Jettisoned During Reentry"
+          }
+        },
+        {
+          "id": "vB0ePELMOWaG",
+          "uri": "articles/aids-for-ocean-recovery.html",
+          "titles": {
+            "EN": "Aids for Ocean Recovery"
+          }
+        },
+        {
+          "id": "daLj6I2xeVmZ",
+          "uri": "articles/pilot-parachutes-deploy-the-main-parachutes.html",
+          "titles": {
+            "EN": "Pilot Parachutes Deploy the Main Parachutes"
+          }
+        },
+        {
+          "id": "0FrH7UyTs2Xj",
+          "uri": "articles/forward-compartment.html",
+          "titles": {
+            "EN": "Forward Compartment"
+          },
+          "lead": "A Closer Look"
+        }
+      ]
+    },
+    {
+      "articles": [
+        {
+          "id": "UoJOkpv3TOGX",
+          "uri": "articles/crew-access-hatch--exterior-features.html",
+          "titles": {
+            "EN": "Crew Access Hatch: Exterior Features"
+          }
+        }
+      ]
+    },
+    {
+      "collection": {
+        "edanRecordId": "edanmdm:nasm_A19700102000",
+        "title": "Apollo Command Module Exterior",
+        "titles": {
+          "EN": "Apollo Command Module Exterior"
+        },
+        "intros": {
+          "EN": ""
+        }
+      },
+      "images": [
+        {
+          "uri": "scene-image-thumb.jpg",
+          "quality": "Thumb",
+          "byteSize": 14904,
+          "width": 320,
+          "height": 320
+        },
+        {
+          "uri": "scene-image-low.jpg",
+          "quality": "Low",
+          "byteSize": 48363,
+          "width": 640,
+          "height": 640
+        },
+        {
+          "uri": "scene-image-medium.jpg",
+          "quality": "Medium",
+          "byteSize": 161457,
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "uri": "scene-image-high.jpg",
+          "quality": "High",
+          "byteSize": 553821,
+          "width": 2560,
+          "height": 2560
+        }
+      ],
+      "articles": [
+        {
+          "id": "Mst6DoJj24dO",
+          "uri": "articles/introduction-to-columbia.html",
+          "titles": {
+            "EN": "Introduction to Columbia"
+          }
+        }
+      ]
+    }
+  ],
+  "setups": [
+    {
+      "interface": {
+        "visible": true,
+        "logo": true,
+        "menu": true,
+        "tools": true
+      },
+      "reader": {
+        "enabled": false,
+        "position": "Overlay"
+      },
+      "viewer": {
+        "shader": "Default",
+        "exposure": 1,
+        "gamma": 2
+      },
+      "navigation": {
+        "enabled": true,
+        "autoZoom": true,
+        "autoRotation": false,
+        "lightsFollowCamera": false,
+        "type": "Orbit",
+        "orbit": {
+          "orbit": [
+            -8.6352453,
+            390.2669951,
+            -13.4130096
+          ],
+          "offset": [
+            -23.3846363,
+            -3.955527,
+            567.2564593
+          ],
+          "minOrbit": [
+            -90,
+            null,
+            null
+          ],
+          "maxOrbit": [
+            90,
+            null,
+            null
+          ],
+          "minOffset": [
+            null,
+            null,
+            0.1
+          ],
+          "maxOffset": [
+            null,
+            null,
+            10000
+          ]
+        }
+      },
+      "background": {
+        "style": "RadialGradient",
+        "color0": [
+          0.2,
+          0.25,
+          0.3
+        ],
+        "color1": [
+          0.01,
+          0.03,
+          0.05
+        ]
+      },
+      "floor": {
+        "visible": false,
+        "position": [
+          0,
+          -25,
+          0
+        ],
+        "size": 50,
+        "color": [
+          0.6,
+          0.75,
+          0.8
+        ],
+        "opacity": 0.5,
+        "receiveShadow": false
+      },
+      "grid": {
+        "visible": false,
+        "color": [
+          0.5,
+          0.7,
+          0.8
+        ]
+      },
+      "tape": {
+        "enabled": false,
+        "startPosition": [
+          -1.66893,
+          19.6101619,
+          -19.9079514
+        ],
+        "startDirection": [
+          -0.997167,
+          0.0351941,
+          -0.0664778
+        ],
+        "endPosition": [
+          -3.9932775,
+          4.1129542,
+          13.7689067
+        ],
+        "endDirection": [
+          -0.8605058,
+          0.1610993,
+          0.4832978
+        ]
+      },
+      "slicer": {
+        "enabled": false,
+        "axis": "X",
+        "position": 0.5,
+        "inverted": false
+      },
+      "tours": [
+        {
+          "steps": [
+            {
+              "id": "42kquA",
+              "titles": {
+                "EN": "Welcome Aboard"
+              }
+            },
+            {
+              "id": "IzNlB9",
+              "titles": {
+                "EN": "The Exterior"
+              }
+            },
+            {
+              "id": "UsrbfH",
+              "titles": {
+                "EN": "A Closer Look"
+              }
+            },
+            {
+              "id": "f94jPH",
+              "titles": {
+                "EN": "Forward Heat Shield"
+              }
+            },
+            {
+              "id": "Ir2xme",
+              "titles": {
+                "EN": "Jettospmed During Re-entry"
+              }
+            },
+            {
+              "id": "181BjL",
+              "titles": {
+                "EN": "Central Heat Shield"
+              }
+            },
+            {
+              "id": "08OMBC",
+              "titles": {
+                "EN": "Major Features"
+              }
+            },
+            {
+              "id": "9AEPNZ",
+              "titles": {
+                "EN": "Ablative Material"
+              }
+            },
+            {
+              "id": "ZctGLF",
+              "titles": {
+                "EN": "Thermal Protection"
+              }
+            },
+            {
+              "id": "Ct6h7I",
+              "titles": {
+                "EN": "Aft Heat Shield"
+              }
+            },
+            {
+              "id": "SnYgda",
+              "titles": {
+                "EN": "Aft Compartment"
+              }
+            },
+            {
+              "id": "r3hloV",
+              "titles": {
+                "EN": "6 Service Module Attachment Points"
+              }
+            },
+            {
+              "id": "fzg9fc",
+              "titles": {
+                "EN": "Compression Pads and Tension Ties"
+              }
+            },
+            {
+              "id": "kP2oJs",
+              "titles": {
+                "EN": "Doors and Windows"
+              }
+            },
+            {
+              "id": "FMKnAz",
+              "titles": {
+                "EN": "Doors and windows"
+              }
+            },
+            {
+              "id": "MiL6Ju",
+              "titles": {
+                "EN": "Crew Access Hatch"
+              }
+            },
+            {
+              "id": "zSi2Gb",
+              "titles": {
+                "EN": "Exterior Features"
+              }
+            },
+            {
+              "id": "9LRR40",
+              "titles": {
+                "EN": "Extravehicular Activities"
+              }
+            },
+            {
+              "id": "DQfhfj",
+              "titles": {
+                "EN": "EVA: A Closer Look"
+              }
+            },
+            {
+              "id": "cHyGLD",
+              "titles": {
+                "EN": "Windows"
+              }
+            },
+            {
+              "id": "Cscwqv",
+              "titles": {
+                "EN": "Looking Out"
+              }
+            },
+            {
+              "id": "96IPXR",
+              "titles": {
+                "EN": "Waste Management"
+              }
+            },
+            {
+              "id": "zglbeu",
+              "titles": {
+                "EN": "Disposing of Liquid Waste"
+              }
+            },
+            {
+              "id": "zbqrHp",
+              "titles": {
+                "EN": "Yee Yaw!"
+              }
+            },
+            {
+              "id": "jPHXCx",
+              "titles": {
+                "EN": "Rock and Roll!"
+              }
+            },
+            {
+              "id": "HRQnnp",
+              "titles": {
+                "EN": "Stay Positive"
+              }
+            },
+            {
+              "id": "uhX0KJ",
+              "titles": {
+                "EN": "Controlling the Negative"
+              }
+            },
+            {
+              "id": "IyCv13",
+              "titles": {
+                "EN": "All the Engines"
+              }
+            },
+            {
+              "id": "C4tTkw",
+              "titles": {
+                "EN": "Antennas"
+              }
+            },
+            {
+              "id": "cdO87F",
+              "titles": {
+                "EN": "Radio Communication"
+              }
+            },
+            {
+              "id": "NvIC5J",
+              "titles": {
+                "EN": "Steam Vent"
+              }
+            },
+            {
+              "id": "AkTi8f",
+              "titles": {
+                "EN": "A Multi-Purpose Opening"
+              }
+            },
+            {
+              "id": "3ZJJfR",
+              "titles": {
+                "EN": "Umbilical Connector"
+              }
+            },
+            {
+              "id": "WFmgJ9",
+              "titles": {
+                "EN": "Connecting Columbia to the Service Module"
+              }
+            },
+            {
+              "id": "LepCap",
+              "titles": {
+                "EN": "Navigation"
+              }
+            },
+            {
+              "id": "IK4tLQ",
+              "titles": {
+                "EN": "Command Module Guidance System Instruments"
+              }
+            },
+            {
+              "id": "OCGi2J",
+              "titles": {
+                "EN": "Forward Compartment"
+              }
+            },
+            {
+              "id": "krsCAp",
+              "titles": {
+                "EN": "A Closer Look at the Forward Compartment"
+              }
+            },
+            {
+              "id": "AM57qY",
+              "titles": {
+                "EN": "Drogue Chute Motars"
+              }
+            },
+            {
+              "id": "KUCoq6",
+              "titles": {
+                "EN": "A Series of Parachutes"
+              }
+            },
+            {
+              "id": "8KxoSz",
+              "titles": {
+                "EN": "Pilot Chute Mortars"
+              }
+            },
+            {
+              "id": "vKpy7i",
+              "titles": {
+                "EN": "Pilot Parachutes Deploy"
+              }
+            },
+            {
+              "id": "QX71wv",
+              "titles": {
+                "EN": "Dye Marker"
+              }
+            },
+            {
+              "id": "NC7TpI",
+              "titles": {
+                "EN": "Aids for Ocean Recovery"
+              }
+            },
+            {
+              "id": "UcOeHs",
+              "titles": {
+                "EN": "Explore the Command Module"
+              }
+            }
+          ],
+          "title": "The Columbia Command Module",
+          "lead": "How was something so small able to keep astronauts safe?"
+        }
+      ],
+      "snapshots": {
+        "features": [
+          "reader",
+          "viewer",
+          "navigation"
+        ],
+        "targets": [
+          "scenes/0/setup/reader/enabled",
+          "scenes/0/setup/reader/articleId",
+          "scenes/0/setup/navigation/orbit",
+          "scenes/0/setup/navigation/offset",
+          "scenes/0/setup/viewer/annotationsVisible",
+          "scenes/0/setup/viewer/activeAnnotation",
+          "scenes/0/setup/viewer/activeTags",
+          "scenes/0/setup/viewer/shader",
+          "scenes/0/setup/viewer/exposure"
+        ],
+        "states": [
+          {
+            "id": "42kquA",
+            "values": [
+              true,
+              "Mst6DoJj24dO",
+              [
+                -1.4168663,
+                366.9269182,
+                -13.7127371
+              ],
+              [
+                -25.9641324,
+                -7.9248024,
+                502.2985821
+              ],
+              false,
+              "5RJe06F3OQHb",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "IzNlB9",
+            "values": [
+              false,
+              "Mst6DoJj24dO",
+              [
+                0.3814988,
+                470.9323678,
+                -13.4130096
+              ],
+              [
+                0.7247569,
+                -16.1367683,
+                502.2985821
+              ],
+              true,
+              "YzdxZNaRABSA",
+              "Shell",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "UsrbfH",
+            "values": [
+              true,
+              "OTvODFlIwBjD",
+              [
+                0.3814988,
+                470.9323678,
+                -13.4130096
+              ],
+              [
+                0.7247569,
+                -16.1367683,
+                375.7454639
+              ],
+              false,
+              "5RJe06F3OQHb",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "f94jPH",
+            "values": [
+              false,
+              "OTvODFlIwBjD",
+              [
+                -65.5585557,
+                467.9350926,
+                -13.4130096
+              ],
+              [
+                0.7247569,
+                -16.1367683,
+                375.7454639
+              ],
+              true,
+              "TjPsDthza1P8",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "Ir2xme",
+            "values": [
+              true,
+              "NoG95P9RQC6N",
+              [
+                -65.5585557,
+                467.9350926,
+                -13.4130096
+              ],
+              [
+                0.7247569,
+                -16.1367683,
+                281.0771495
+              ],
+              false,
+              "5RJe06F3OQHb",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "181BjL",
+            "values": [
+              false,
+              "NoG95P9RQC6N",
+              [
+                -28.6920707,
+                598.316564,
+                -13.4130096
+              ],
+              [
+                0.7247569,
+                -16.1367683,
+                394.2252425
+              ],
+              true,
+              "5RJe06F3OQHb",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "08OMBC",
+            "values": [
+              true,
+              "V7lmWF40Yqfn",
+              [
+                -28.6920707,
+                598.316564,
+                -13.4130096
+              ],
+              [
+                0.7247569,
+                -16.1367683,
+                317.0978334
+              ],
+              false,
+              "5RJe06F3OQHb",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "9AEPNZ",
+            "values": [
+              false,
+              "V7lmWF40Yqfn",
+              [
+                18.36515,
+                615.1013051,
+                -13.4130096
+              ],
+              [
+                5.7221296,
+                -48.8973226,
+                401.6016321
+              ],
+              true,
+              "eWMVP3tsYaiJ",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "ZctGLF",
+            "values": [
+              true,
+              "sEa1dsr4iEED",
+              [
+                18.36515,
+                615.1013051,
+                -13.4130096
+              ],
+              [
+                5.7221296,
+                -48.8973226,
+                300.4189081
+              ],
+              false,
+              "5RJe06F3OQHb",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "Ct6h7I",
+            "values": [
+              false,
+              "sEa1dsr4iEED",
+              [
+                36.6485288,
+                767.9623405,
+                -13.4130096
+              ],
+              [
+                5.7221296,
+                -48.8973226,
+                300.4189081
+              ],
+              true,
+              "xSH5UBQLa5L9",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "SnYgda",
+            "values": [
+              true,
+              "Lnex0EqwRsBB",
+              [
+                50.4359947,
+                771.5590708,
+                -13.4130096
+              ],
+              [
+                5.7221296,
+                -48.8973226,
+                415.18947
+              ],
+              false,
+              "5RJe06F3OQHb",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "r3hloV",
+            "values": [
+              false,
+              "Lnex0EqwRsBB",
+              [
+                57.0300002,
+                751.7770544,
+                -13.4130096
+              ],
+              [
+                -2.4676389,
+                -17.9581975,
+                333.9605565
+              ],
+              true,
+              "tkTIeBhMINDm",
+              "SM Attachment Points",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "fzg9fc",
+            "values": [
+              true,
+              "RfKcU1kUjz20",
+              [
+                57.0300002,
+                751.7770544,
+                -13.4130096
+              ],
+              [
+                -3.7439248,
+                -35.1880583,
+                468.3969566
+              ],
+              false,
+              "5RJe06F3OQHb",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "kP2oJs",
+            "values": [
+              false,
+              "",
+              [
+                -11.113836,
+                386.0178273,
+                -13.7127371
+              ],
+              [
+                -25.9641324,
+                -7.9248024,
+                502.2985821
+              ],
+              true,
+              "CTti19m17vLw",
+              "Shell",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "FMKnAz",
+            "values": [
+              true,
+              "9vKzddSJvytG",
+              [
+                -11.113836,
+                386.0178273,
+                -13.7127371
+              ],
+              [
+                -25.9641324,
+                -7.9248024,
+                404.0273806
+              ],
+              true,
+              "CTti19m17vLw",
+              "Shell",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "MiL6Ju",
+            "values": [
+              false,
+              "9vKzddSJvytG",
+              [
+                -6.2653511,
+                370.8663121,
+                -13.7127371
+              ],
+              [
+                -12.9683079,
+                -10.8127634,
+                324.9822518
+              ],
+              true,
+              "xuch1wd5uIWs",
+              "Shell",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "zSi2Gb",
+            "values": [
+              true,
+              "UoJOkpv3TOGX",
+              [
+                -6.2653511,
+                370.8663121,
+                -13.7127371
+              ],
+              [
+                -12.9683079,
+                -10.8127634,
+                261.4017491
+              ],
+              true,
+              "xuch1wd5uIWs",
+              "Shell",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "9LRR40",
+            "values": [
+              false,
+              "UoJOkpv3TOGX",
+              [
+                14.0376792,
+                396.9269182,
+                -13.7127371
+              ],
+              [
+                -12.9683079,
+                -10.8127634,
+                342.6443697
+              ],
+              true,
+              "fITr2xVkuX1t",
+              "Space",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "DQfhfj",
+            "values": [
+              true,
+              "WLLAfBCm6cpl",
+              [
+                17.9770731,
+                396.3208576,
+                -13.7127371
+              ],
+              [
+                -12.9683079,
+                -10.8127634,
+                296.3531154
+              ],
+              true,
+              "fITr2xVkuX1t",
+              "Space",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "cHyGLD",
+            "values": [
+              false,
+              "WLLAfBCm6cpl",
+              [
+                -12.9320178,
+                350.8663121,
+                -13.7127371
+              ],
+              [
+                -12.9683079,
+                -10.8127634,
+                339.2946818
+              ],
+              true,
+              "U7ZLLzZwUBUx",
+              "Shell",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "Cscwqv",
+            "values": [
+              true,
+              "0uoSRXHoea4N",
+              [
+                -12.9320178,
+                350.8663121,
+                -13.7127371
+              ],
+              [
+                -12.9683079,
+                -10.8127634,
+                272.9140524
+              ],
+              true,
+              "U7ZLLzZwUBUx",
+              "Shell",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "96IPXR",
+            "values": [
+              false,
+              "0uoSRXHoea4N",
+              [
+                -1.7198966,
+                325.4117667,
+                -13.7127371
+              ],
+              [
+                -15.2237959,
+                -35.2472171,
+                334.3314494
+              ],
+              true,
+              "2Qb2QWuySj9V",
+              "Space",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "zglbeu",
+            "values": [
+              true,
+              "tE6u1ZXmBriy",
+              [
+                -1.7198966,
+                325.4117667,
+                -13.7127371
+              ],
+              [
+                -15.2237959,
+                -69.325467,
+                268.9218417
+              ],
+              true,
+              "2Qb2QWuySj9V",
+              "Space",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "zbqrHp",
+            "values": [
+              false,
+              "tE6u1ZXmBriy",
+              [
+                -25.0532299,
+                286.6238879,
+                -13.7127371
+              ],
+              [
+                -15.2237959,
+                -69.325467,
+                401.6016322
+              ],
+              true,
+              "BYbOCXr2PFqV",
+              "Engines",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "jPHXCx",
+            "values": [
+              false,
+              "tE6u1ZXmBriy",
+              [
+                -22.3259572,
+                325.714797,
+                -13.7127371
+              ],
+              [
+                -15.2237959,
+                -69.325467,
+                401.6016322
+              ],
+              true,
+              "6j49OFrNPyOE",
+              "Engines",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "HRQnnp",
+            "values": [
+              false,
+              "tE6u1ZXmBriy",
+              [
+                -7.4774724,
+                379.0481303,
+                -13.7127371
+              ],
+              [
+                -15.2237959,
+                -69.325467,
+                401.6016322
+              ],
+              true,
+              "FMyyRbcDeweX",
+              "Engines",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "uhX0KJ",
+            "values": [
+              false,
+              "tE6u1ZXmBriy",
+              [
+                -28.3865633,
+                391.4723727,
+                -13.7127371
+              ],
+              [
+                -9.0519588,
+                -14.6018446,
+                298.7169164
+              ],
+              true,
+              "t6wg6R5sgnbH",
+              "Engines",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "IyCv13",
+            "values": [
+              true,
+              "DGLLxHTEFm4c",
+              [
+                -15.9623208,
+                379.9572212,
+                -13.7127371
+              ],
+              [
+                -9.7126669,
+                -25.8338826,
+                479.6740911
+              ],
+              true,
+              "",
+              "Engines",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "C4tTkw",
+            "values": [
+              false,
+              "DGLLxHTEFm4c",
+              [
+                16.1588913,
+                394.8057061,
+                -13.7127371
+              ],
+              [
+                -7.2787719,
+                -49.3237554,
+                333.7036862
+              ],
+              true,
+              "G6DvfZKIZjSC",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "cdO87F",
+            "values": [
+              true,
+              "nbo8hSdC6uBL",
+              [
+                3.7369993,
+                335.2900845,
+                -13.7127371
+              ],
+              [
+                -7.2787719,
+                -49.3237554,
+                333.7036862
+              ],
+              true,
+              "0B7nBIPpkuyW",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "NvIC5J",
+            "values": [
+              false,
+              "nbo8hSdC6uBL",
+              [
+                -18.3842128,
+                306.1991754,
+                -13.7127371
+              ],
+              [
+                -7.2787719,
+                -49.3237554,
+                333.7036862
+              ],
+              true,
+              "09lVKKAhAekZ",
+              "Shell",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "AkTi8f",
+            "values": [
+              true,
+              "RTOIsNa45iCX",
+              [
+                -14.1417886,
+                310.4415996,
+                -13.7127371
+              ],
+              [
+                -11.7154148,
+                -61.8942436,
+                268.4168959
+              ],
+              true,
+              "09lVKKAhAekZ",
+              "Shell",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "3ZJJfR",
+            "values": [
+              false,
+              "RTOIsNa45iCX",
+              [
+                -40.2023946,
+                210.8843991,
+                -13.7127371
+              ],
+              [
+                -11.7154148,
+                -61.8942436,
+                397.1762438
+              ],
+              true,
+              "0isgc959NKUw",
+              "Space",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "WFmgJ9",
+            "values": [
+              true,
+              "TC0iB1H7NKOw",
+              [
+                -40.2023946,
+                210.8843991,
+                -13.7127371
+              ],
+              [
+                -15.7846331,
+                -73.288055,
+                295.4252506
+              ],
+              true,
+              "0isgc959NKUw",
+              "Space",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "LepCap",
+            "values": [
+              false,
+              "TC0iB1H7NKOw",
+              [
+                -39.8993643,
+                212.0965204,
+                -13.7127371
+              ],
+              [
+                -17.8192423,
+                -0.4490469,
+                295.4252506
+              ],
+              true,
+              "K5fDMMifRasq",
+              "Space",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.5
+          },
+          {
+            "id": "IK4tLQ",
+            "values": [
+              true,
+              "RSZmUnv5qDP1",
+              [
+                -37.7781522,
+                190.2783385,
+                -13.7127371
+              ],
+              [
+                -17.8192423,
+                -0.4490469,
+                255.5132993
+              ],
+              true,
+              "K5fDMMifRasq",
+              "Space",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "OCGi2J",
+            "values": [
+              false,
+              "RSZmUnv5qDP1",
+              [
+                -51.7175461,
+                122.702581,
+                -13.7127371
+              ],
+              [
+                -17.8192423,
+                -0.4490469,
+                334.9258132
+              ],
+              true,
+              "Q6SmsRAKaNSe",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "krsCAp",
+            "values": [
+              true,
+              "0FrH7UyTs2Xj",
+              [
+                -44.4448189,
+                105.732884,
+                -13.7127371
+              ],
+              [
+                -17.8192423,
+                -0.4490469,
+                410.298523
+              ],
+              true,
+              "Q6SmsRAKaNSe",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "AM57qY",
+            "values": [
+              false,
+              "0FrH7UyTs2Xj",
+              [
+                -34.1417886,
+                377.8540961,
+                -13.7127371
+              ],
+              [
+                -17.8192423,
+                -0.4490469,
+                330.026489
+              ],
+              true,
+              "qpg7F6b01hnF",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "KUCoq6",
+            "values": [
+              true,
+              "mOJVPoLF1Igs",
+              [
+                -20.4861632,
+                372.0772586,
+                -13.7127371
+              ],
+              [
+                -17.8192423,
+                -10.9044315,
+                330.026489
+              ],
+              true,
+              "qpg7F6b01hnF",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "8KxoSz",
+            "values": [
+              false,
+              "mOJVPoLF1Igs",
+              [
+                -57.7444643,
+                580.5476809,
+                -13.7127371
+              ],
+              [
+                -17.8192423,
+                -10.9044315,
+                330.026489
+              ],
+              true,
+              "r0lgsCtzPgjz",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "vKpy7i",
+            "values": [
+              true,
+              "daLj6I2xeVmZ",
+              [
+                -29.1263052,
+                589.3355597,
+                -13.7127371
+              ],
+              [
+                13.5469116,
+                40.9179097,
+                330.026489
+              ],
+              true,
+              "r0lgsCtzPgjz",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "QX71wv",
+            "values": [
+              false,
+              "daLj6I2xeVmZ",
+              [
+                -19.7024153,
+                319.0325294,
+                -13.7127371
+              ],
+              [
+                13.5469116,
+                40.9179097,
+                330.026489
+              ],
+              true,
+              "3eepNHGGIT68",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "NC7TpI",
+            "values": [
+              true,
+              "vB0ePELMOWaG",
+              [
+                -10.3084759,
+                325.3961658,
+                -13.7127371
+              ],
+              [
+                21.7819931,
+                62.6820537,
+                213.5238987
+              ],
+              true,
+              "3eepNHGGIT68",
+              "Re-Entry",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          },
+          {
+            "id": "UcOeHs",
+            "values": [
+              false,
+              "vB0ePELMOWaG",
+              [
+                -16.2357714,
+                365.2329047,
+                -13.7127371
+              ],
+              [
+                49.0701279,
+                -52.0791253,
+                668.7215258
+              ],
+              true,
+              "",
+              "Re-Entry, Shell, Space, Engines, SM Attachment Points",
+              0,
+              1
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 3
+          }
+        ]
+      }
+    }
+  ]
+}
